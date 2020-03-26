@@ -76,8 +76,6 @@ def all_holidays_with_bbq(holiday_hash)
   bbq=[]
   holiday_hash.include?("BBQ")
     bbq.push(holiday)
-  else 
-    nil
 end
 bbq
 end
