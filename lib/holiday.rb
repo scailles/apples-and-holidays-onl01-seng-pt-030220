@@ -67,6 +67,7 @@ array = holiday_hash.each do |season, holiday|
   holiday.each do |supplies|
     supplies
   end
+  array.flatten
 end
 end
   
