@@ -73,8 +73,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-   if holiday_hash[season][holiday].include?("BBQ")
-    holiday.flatten
+   if holiday_hash
   end
 end
 
