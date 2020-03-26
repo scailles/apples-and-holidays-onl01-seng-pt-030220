@@ -59,8 +59,9 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 seasons=[]  
-holiday_hash[:season].flatten = seasons
-
+supplies = []
+seasons = holiday_hash[:season].flatten
+supplies = holiday_hash[:sea]
 
 end
 
